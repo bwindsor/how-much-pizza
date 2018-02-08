@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bwindsor/how-much-pizza.svg?branch=master)](https://travis-ci.org/bwindsor/how-much-pizza)
+
 # how-much-pizza
 This webpage calculates how much pizza [CUOC](https://cuoc.org.uk) should buy, based on how many people are attending pizza.
 
