@@ -55,13 +55,13 @@ window.onload = function () {
             numGarlicPackets.toString() + " pack" + (numGarlicPackets === 1 ? "" : "s") + " of garlic breed",
             makeEmojiString("&#127829;", numPizza),
             makeEmojiString("&#127838;", numGarlicPackets),
-            "Optionally, you could also buy " + numPeople + " oranges, or alternative variety of fruit, and " + numPeople + " dessert items.",
+            "Optionally, you could also buy " + numPeople + " oranges, (or other fruit), and " + numPeople + " dessert items.",
             makeEmojiString("&#127818;", numPeople),
             makeEmojiString("&#127850;", numPeople),
             "Don't forget the squaish either!"
         ];
 
-        resultDiv.innerHTML = result.join("<br/>");
+        resultDiv.innerHTML = result.filter(x => x.length > 0).join("<br/>");
 
     };
 
