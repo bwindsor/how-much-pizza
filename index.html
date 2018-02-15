@@ -2,29 +2,38 @@
 
 <head>
     <title>How much pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <link rel="stylesheet" href="https://cuoc.org.uk/styles/main_276.css">
     <link rel="stylesheet" href="https://cuoc.org.uk/styles/sleek.css">
     <link rel="stylesheet" href="https://cuoc.org.uk/styles/ol.css">
     <script src="parameters.js"></script>
     <script src="index.js"></script>
+    
+    <style>
+        .pizza-section {
+            width: 100vw;
+        }
+    </style>
 </head>
 
 <body>
     <div class="middleWrapper">
         <div class="middle">
+            <div class="pizza-section">
             <h1>How Much Pizza?</h1>
-            <div>
+            </div>
+            <div class="pizza-section">
                 How many people?</div><div>
                 <input type="text" id="numPeople" value=0 min=1 max=100></input>
             </div>
-            <div>
+            <div class="pizza-section">
                 Is Jeremy doing the shopping?
                 <input type="checkbox" id="isJeremy"></input>
             </div>
-            <div id="result"></div>
+            <div id="result" class="pizza-section"></div>
             <img src="https://cuoc.org.uk/webimgs/2018/wed_training/handshake_s.jpg">
 
-            <div>
+            <div class="pizza-section">
                 <ul>
                     <li>Pizza should be purchased in Aldi</li>
                     <li>Approximately 50% of pizza should be vegetarian, much of which should be Jam Pizza (aka Spinach and Ricotta)</li>
